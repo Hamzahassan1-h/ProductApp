@@ -100,6 +100,8 @@ dependencies {
     testImplementation ("junit:junit:4.13.2")
     testImplementation ("org.mockito:mockito-core:3.11.2")
     testImplementation ("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.5.2")
+    testImplementation ("org.mockito:mockito-core:4.6.1")
+    testImplementation ("org.mockito.kotlin:mockito-kotlin:4.0.0")
 // Mocking library
     testImplementation ("org.mockito:mockito-inline:3.11.2")
     testImplementation ("androidx.arch.core:core-testing:2.1.0")

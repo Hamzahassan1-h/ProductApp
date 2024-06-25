@@ -22,8 +22,7 @@ class ProductListViewModel @Inject constructor(
     init {
         fetchProducts()
     }
-
-    private fun fetchProducts(){
+    fun fetchProducts(){
         viewModelScope.launch ( Dispatchers.IO ) {
             repository.getProducts().collect{ productList ->
                 _productList.value = productList.filterNotNull()

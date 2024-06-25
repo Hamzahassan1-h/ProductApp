@@ -6,9 +6,6 @@ import com.example.productapp.data.remote.service.ProductService
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 
-
-
-
 class ProductRepositoryImpl (
     //The class has a primary constructor that takes one parameter:
     //productService: An instance of ProductService.
